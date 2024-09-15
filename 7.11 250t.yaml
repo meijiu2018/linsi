@@ -5,102 +5,21 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港实验性 IEPL 中继 1, server: gzdata1.fc-smartcloud.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 2658582e74.m.ctrip.com}, udp: true}
-  - {name: 🇯🇵 日本实验性 IEPL 中继 1, server: shdata1.fc-smartcloud.xyz, port: 10002, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 2658582e74.m.ctrip.com}, udp: true}
-  - {name: 🇸🇬 新加坡实验性 IEPL 中继 1, server: gzdata1.fc-smartcloud.xyz, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 2658582e74.m.ctrip.com}, udp: true}
-  - {name: 🇺🇲 美国实验性 IEPL 中继 1, server: shdata1.fc-smartcloud.xyz, port: 10004, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 2658582e74.m.ctrip.com}, udp: true}
-  - {name: 🇺🇲 美国高级 IEPL 中继 3, server: shdata1.fc-smartcloud.xyz, port: 12023, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 2658582e74.m.ctrip.com}, udp: true}
-  - {name: 🇭🇰 日用 专线 香港 日用, server: bepgzbgp01.004837963.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 日用 专线 狮城 日用, server: bepgzbgp01.004837963.xyz, port: 14092, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 日用 专线 日本 日用, server: bepshbgp01.004837963.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 日用 专线 美国 日用, server: bepshbgp01.004837963.xyz, port: 14094, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 04, server: bepshbgp01.004837963.xyz, port: 14124, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇨🇳 Taiwan 01, server: 183.239.109.254, port: 14786, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇨🇳 Taiwan 02, server: 183.239.109.254, port: 14790, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇨🇳 Taiwan 03, server: qc456987.xiyunchen.cn, port: 24789, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇨🇳 Taiwan 04, server: qc456987.xiyunchen.cn, port: 24790, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇯🇵 Japan 01, server: 183.239.109.254, port: 14788, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇯🇵 Japan 02, server: 183.239.109.254, port: 14792, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇺🇲 United States 01, server: 183.239.109.254, port: 14787, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇺🇲 United States 02, server: 183.239.109.254, port: 14793, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇺🇲 United States 03, server: qc456987.xiyunchen.cn, port: 24793, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇺🇲 United States 04, server: qc456987.xiyunchen.cn, port: 24794, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇸🇬 Singapore 01, server: 183.239.109.254, port: 14789, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇸🇬 Singapore 02, server: 183.239.109.254, port: 14791, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇸🇬 Singapore 03, server: qc456987.xiyunchen.cn, port: 24795, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇸🇬 Singapore 04, server: qc456987.xiyunchen.cn, port: 24796, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇰🇷 Korea 01, server: 183.239.109.254, port: 14794, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: 🇰🇷 Korea 02, server: qc456987.xiyunchen.cn, port: 24797, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: Antarctica 01, server: 183.239.109.254, port: 14796, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
-  - {name: Antarctica 02, server: qc456987.xiyunchen.cn, port: 24798, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 找客服续费, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 12341, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港实验性 IEPL 中继 1
-      - 🇯🇵 日本实验性 IEPL 中继 1
-      - 🇸🇬 新加坡实验性 IEPL 中继 1
-      - 🇺🇲 美国实验性 IEPL 中继 1
-      - 🇺🇲 美国高级 IEPL 中继 3
-      - 🇭🇰 日用 专线 香港 日用
-      - 🇯🇵 日用 专线 狮城 日用
-      - 🇯🇵 日用 专线 日本 日用
-      - 🇯🇵 日用 专线 美国 日用
-      - 🇯🇵 高级 专线 日本 04
-      - 🇨🇳 Taiwan 01
-      - 🇨🇳 Taiwan 02
-      - 🇨🇳 Taiwan 03
-      - 🇨🇳 Taiwan 04
-      - 🇯🇵 Japan 01
-      - 🇯🇵 Japan 02
-      - 🇺🇲 United States 01
-      - 🇺🇲 United States 02
-      - 🇺🇲 United States 03
-      - 🇺🇲 United States 04
-      - 🇸🇬 Singapore 01
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 03
-      - 🇸🇬 Singapore 04
-      - 🇰🇷 Korea 01
-      - 🇰🇷 Korea 02
-      - Antarctica 01
-      - Antarctica 02
+      - 找客服续费
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港实验性 IEPL 中继 1
-      - 🇯🇵 日本实验性 IEPL 中继 1
-      - 🇸🇬 新加坡实验性 IEPL 中继 1
-      - 🇺🇲 美国实验性 IEPL 中继 1
-      - 🇺🇲 美国高级 IEPL 中继 3
-      - 🇭🇰 日用 专线 香港 日用
-      - 🇯🇵 日用 专线 狮城 日用
-      - 🇯🇵 日用 专线 日本 日用
-      - 🇯🇵 日用 专线 美国 日用
-      - 🇯🇵 高级 专线 日本 04
-      - 🇨🇳 Taiwan 01
-      - 🇨🇳 Taiwan 02
-      - 🇨🇳 Taiwan 03
-      - 🇨🇳 Taiwan 04
-      - 🇯🇵 Japan 01
-      - 🇯🇵 Japan 02
-      - 🇺🇲 United States 01
-      - 🇺🇲 United States 02
-      - 🇺🇲 United States 03
-      - 🇺🇲 United States 04
-      - 🇸🇬 Singapore 01
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 03
-      - 🇸🇬 Singapore 04
-      - 🇰🇷 Korea 01
-      - 🇰🇷 Korea 02
-      - Antarctica 01
-      - Antarctica 02
+      - 找客服续费
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -118,34 +37,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港实验性 IEPL 中继 1
-      - 🇯🇵 日本实验性 IEPL 中继 1
-      - 🇸🇬 新加坡实验性 IEPL 中继 1
-      - 🇺🇲 美国实验性 IEPL 中继 1
-      - 🇺🇲 美国高级 IEPL 中继 3
-      - 🇭🇰 日用 专线 香港 日用
-      - 🇯🇵 日用 专线 狮城 日用
-      - 🇯🇵 日用 专线 日本 日用
-      - 🇯🇵 日用 专线 美国 日用
-      - 🇯🇵 高级 专线 日本 04
-      - 🇨🇳 Taiwan 01
-      - 🇨🇳 Taiwan 02
-      - 🇨🇳 Taiwan 03
-      - 🇨🇳 Taiwan 04
-      - 🇯🇵 Japan 01
-      - 🇯🇵 Japan 02
-      - 🇺🇲 United States 01
-      - 🇺🇲 United States 02
-      - 🇺🇲 United States 03
-      - 🇺🇲 United States 04
-      - 🇸🇬 Singapore 01
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 03
-      - 🇸🇬 Singapore 04
-      - 🇰🇷 Korea 01
-      - 🇰🇷 Korea 02
-      - Antarctica 01
-      - Antarctica 02
+      - 找客服续费
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1875,10 +1767,13 @@ rules:
   - DOMAIN-SUFFIX,edgedatg.com,🚀 节点选择
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
+  - DOMAIN,api-abematv.bucketeer.jp,🚀 节点选择
+  - DOMAIN-SUFFIX,abema-tv.com,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
   - DOMAIN-SUFFIX,ameba.jp,🚀 节点选择
   - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
+  - DOMAIN-SUFFIX,hayabusa.media,🚀 节点选择
   - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
   - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
   - DOMAIN-KEYWORD,avoddashs,🚀 节点选择
@@ -1975,6 +1870,7 @@ rules:
   - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
+  - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
   - DOMAIN-KEYWORD,hbogoasia,🚀 节点选择
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
   - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
@@ -2110,10 +2006,8 @@ rules:
   - DOMAIN-SUFFIX,olevod.tv,🚀 节点选择
   - DOMAIN-SUFFIX,olevodtv.com,🚀 节点选择
   - DOMAIN-KEYWORD,openai,🚀 节点选择
-  - DOMAIN,gemini.google.com,🚀 节点选择
   - DOMAIN-SUFFIX,auth0.com,🚀 节点选择
   - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
-  - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
   - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
   - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
@@ -2378,7 +2272,6 @@ rules:
   - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
-  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
   - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
@@ -2722,8 +2615,6 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
-  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
-  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
